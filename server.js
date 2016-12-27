@@ -21,7 +21,7 @@ app.get('/', function (req, res) {
   res.json(util.defaultResponse());
 });
 
-app.get('/:urlParam', function (req, res) {
+app.get('/:urlParam*', function (req, res) {
   if(req.originalUrl !== "/favicon.ico"){
      util.handleResponse(req, res);
   }
