@@ -1,0 +1,30 @@
+{
+  "name": "urlshortener-sv",
+  "version": "1.0.0",
+  "description": "Freecode-camp url shortener project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leewaygroups/urlshortener-sv.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "freecodecamp",
+    "url-shortener"
+  ],
+  "author": "Prince O. Onyenike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leewaygroups/urlshortener-sv/issues"
+  },
+  "homepage": "https://github.com/leewaygroups/urlshortener-sv#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.5",
+    "q": "^1.4.1"
+  }
+}
